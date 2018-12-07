@@ -1,3 +1,8 @@
+body {
+    background: linear-gradient(teal, white);
+    font-family: 'Arimo', sans-serif;
+  }
+
 h1 {
     background-color: teal;
     color: whitesmoke;
@@ -12,10 +17,11 @@ h1 {
     margin: 15px;
 }
 
-#random-number {
+#goal-number {
     background-color: peru;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
+    font-size: 50px;
 }
 
 #points {
@@ -24,3 +30,16 @@ h1 {
     border-left: 1px solid grey;
 }
 
+.img {
+      background-color: white;
+      padding: 10px;
+}
+
+  .score {
+    background-color: turquoise;
+}
+
+
+#added {
+    font-size: 50px;
+}

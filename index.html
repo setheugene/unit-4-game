@@ -11,10 +11,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="assets/javascript/game.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
     
 
 </head>
 <body>
+    
 <div class="row container">
     <h1>Crystal Collector!</h1>
 </div>
@@ -38,7 +40,7 @@
 </div>
 
 <div class="row container">
-    <div class="col-md-6" id="random-number">86</div>
+    <div class="col-md-6" id="goal-number">86</div>
 
     <div class="col-md-6" id="points">
         <div class="row" id="wins">win</div>
@@ -47,10 +49,18 @@
     </div>
 </div>
 
-<div class="row container">
-    <div class="col-md-3 img" div="crystal1" img src="assets/images/red.jpg" alt="red crystal">1</div>
-    <div class="col-md-3 img" div="crystal2">2</div>
-    <div class="col-md-3 img" div="crystal3">3</div>
-    <div class="col-md-3 img" div="crystal4">4</div>
+<div class="row crystals container">
+    <div class="col-md-3 img" id="crystal1"><img src="assets/images/red.png" alt="red crystal" width="100%"></div>
+    <div class="col-md-3 img" id="crystal2"><img src="assets/images/blue.png" alt="blue crystal" width="100%"></div>
+    <div class="col-md-3 img" id="crystal3"><img src="assets/images/green.jpg" alt="green crystal" width="100%"></div>
+    <div class="col-md-3 img" id="crystal4"><img src="assets/images/yellow.png" alt="yellow crystal" width="100%"></div>
 </div>
+
+<div class="row container score">
+<p>Your total score is: </p>
+</div>
+
+<div class="row container score" id="added">
+        88
+        </div>
 
