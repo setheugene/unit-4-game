@@ -1,0 +1,26 @@
+h1 {
+    background-color: teal;
+    color: whitesmoke;
+}
+
+#rules {
+    background-color: thistle;
+}
+
+.container {
+    width: 500px;
+    margin: 15px;
+}
+
+#random-number {
+    background-color: peru;
+    text-align: center;
+    padding: 50px;
+}
+
+#points {
+    padding: 20px;
+    background-color: aquamarine;
+    border-left: 1px solid grey;
+}
+
